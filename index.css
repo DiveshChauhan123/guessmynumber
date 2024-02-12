@@ -1,0 +1,62 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    background: rgb(200, 201, 36);
+    background: linear-gradient(135deg, rgba(200, 201, 36, 0.560749299719888) 100%, rgba(18, 58, 144, 1) 100%);
+}
+
+.conatiner {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conatiner2 {
+    height: 50vh;
+    width: 55vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#userInput {
+    height: 3vh;
+    width: 6vw;
+    border-radius: 2px;
+
+}
+
+.checknumber {
+
+    width: 5vw;
+    height: 5vh;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.restartgame {
+    display: none;
+    width: 5vw;
+    height: 5vh;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
